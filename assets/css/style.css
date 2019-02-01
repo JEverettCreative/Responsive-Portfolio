@@ -62,9 +62,13 @@ footer {
     font-size: 14px;
     background-color: #4aaaa5;
     position: absolute;
+    display: flex;
     left: 0;
     bottom: 0;
     width: 33%;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
 }
 
 .headerBox {
@@ -205,4 +209,43 @@ input {
     #headshot {
         max-width: 35%;
     }
+
+    .headerBox {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    h1 {
+        font-size: 1.65em;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .mainSection {
+        width: 94%;
+        margin: 30px auto;
+    }
+
+    #headshot {
+        max-width: 50%;
+    }
+
+    .headerBox {
+        max-width: 94%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .myName {
+        width: 45%;
+    }
+
+    h1 {
+        font-size: 4vw;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    
 }
