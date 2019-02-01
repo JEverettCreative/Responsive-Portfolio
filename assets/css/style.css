@@ -199,7 +199,7 @@ input {
 
 @media screen and (max-width: 980px) {
     .mainSection {
-        width: 50%;
+        width: 65%;
         margin-top: 30px;
         margin-left: 40px;
         margin-right: 30%;
@@ -247,5 +247,49 @@ input {
 }
 
 @media screen and (max-width: 640px) {
+    body {
+        margin-top: 0;
+    }
     
+    header {
+        width: 100%;
+        margin: 0;
+        position: static;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .headerBox {
+        width: 100%;
+        max-width: 100%;
+        margin: 0px;
+        height: 100px;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center;  */
+        align-items: center;
+    }
+
+    .myName {
+        width: 100%;
+        height: 60px;;
+        position: relative;
+        display: flex;
+    }
+
+    .navigation {
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        position: static;
+    }
+
+    #headshot {
+        max-width: 100%;
+        margin-bottom: 3%;
+    }
 }
